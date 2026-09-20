@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+dist/
+
+# Editor / IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Launcher config, in case a portable copy is ever run from inside the repo.
+# These hold per-user state (client names, environments) and must never be committed.
+state.json
+state.json.tmp
+portals.json
+
+# OS noise
+Thumbs.db
+Desktop.ini
