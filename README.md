@@ -31,8 +31,8 @@ cannot run on its own.
 The workflow in `.github/workflows/build.yml` builds the exe on GitHub's Windows runners.
 To cut a release, tag the commit and push the tag:
 
-    git tag v0.5.1
-    git push origin v0.5.1
+    git tag v1
+    git push origin v1
 
 A few minutes later the repo's Releases page has `ProfileLauncher.exe` plus its SHA-256.
 
